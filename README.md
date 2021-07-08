@@ -10,5 +10,4 @@
 - ❌ Remove to item
 - 🖱 Button hover animation
 
-<br/>
-![](./main.jpg)
+![](./main.JPG)
