@@ -11,4 +11,4 @@
 - 🖱 Button hover animation
 
 <br/>
-<img src = "./main.jpg" width='80%'>
+![](./main.jpg)
