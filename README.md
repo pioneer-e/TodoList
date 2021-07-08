@@ -10,5 +10,4 @@
 - ❌ Remove to item
 - 🖱 Button hover animation
 
-<br/>
-<img src = "./main.jpg" width='80%'>
+![](./main.JPG)
