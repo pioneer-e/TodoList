@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #ced3df;
+  text-align: center;
+  color: #222;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.list {
+  width: 400px;
+  margin: auto;
+  background-color: #f1f0f7;
+  border-radius: 20px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.header {
+  height: 80px;
+  padding: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  border-radius: 20px 20px 0 0;
+  background: #9055a2;
+  background: -webkit-linear-gradient(28deg, #f6b352, #e53a40, #9055a2);
+  background: linear-gradient(28deg, #f6b352, #e53a40, #9055a2);
+}
+
+.items {
+  height: 500px;
+  overflow-y: auto;
+  font-size: 18px;
+  background-color: white;
+}
+
+.item__row {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 50px;
+  padding-left: 12px;
+  border: 1px solid lightgray;
+}
+
+.item__name {
+  font-size: 20px;
+}
+
+.item__delete {
+  width: 50px;
+  height: 50px;
+  background-color: #f6b352;
+  font-size: 24px;
+  color: white;
+  transition: all 250ms ease-in;
+}
+
+.item__delete:hover {
+  background-color: #e53a40;
+}
+
+.footer {
+  background: #9055a2;
+  background: -webkit-linear-gradient(28deg, #f6b352, #e53a40, #9055a2);
+  background: linear-gradient(28deg, #f6b352, #e53a40, #9055a2);
+  border-radius: 0 0 20px 20px;
+}
+
+.footer__input {
+  width: 100%;
+  height: 48px;
+  font-size: 20px;
+  padding: 0 20px;
+  outline: none;
+  border: none;
+  border-top: 1px solid lightgray;
+}
+
+.footer__button {
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 20px;
+  margin: 12px 0;
+  color: #e53a40;
+  transition: transform 250ms ease-in;
+}
+
+.footer__button:hover {
+  transform: scale(1.1);
+}
