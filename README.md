@@ -4,10 +4,10 @@
 
 - 💻 HTML, CSS, JavaScript
 
-## Examples of Work
+##  Work
 
-- 📝 Add to item
-- ❌ Remove to item
-- 🖱 Button hover animation
+- 📝 일정 추가 
+- ❌ 일정 삭제 
+- 🖱 버튼 애니메이션
 
 ![](./main.JPG)
