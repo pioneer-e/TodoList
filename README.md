@@ -13,4 +13,4 @@
 ![](./main.JPG)
 
 ## 🎮 Production URL
-https://app.netlify.com/sites/todo-make-project/settings/general
+https://todo-make-project.netlify.app/
